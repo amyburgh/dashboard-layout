@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBox</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <span class="material-icons-round" id="dash-logo">dashboard</span>
+            <span>AirBox</span>
+        </div>
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="material-icons-round">home</span>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons-round">folder</span>
+                    <span>My files</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons-round">folder_shared</span>
+                    <span>Shared files</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons-round">folder_special</span>
+                    <span>Starred</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons-round">history</span>
+                    <span>Recent</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons-round">delete</span>
+                    <span>Deleted files</span>
+                </a>
+            </li>
+        </ul>
+        <div>
+            <div>
+                <span>Personal</span>
+                <span>Only you</span>
+            </div>
+            <span class="material-icons-round">unfold_more</span>
+        </div>
+    </nav>
+    <main>
+        <header>
+            <div class="heading">
+                <h1>My Storage</h1>
+                <p>Welcome, Aaron! 👋</p>
+            </div>
+            <form action="#" method="get">
+                <input type="search" name="search" id="search" placeholder="   search">
+            </form>
+            <div class="top-right">
+                <span class="material-icons-round">notifications</span>
+                <span class="material-icons-round profile">account_circle</span>
+                <span class="material-icons-round">more_vert</span>
+            </div>
+        </header>
+        <section class="grid">
+            <section class="quick-access">
+                <div class="quick-access heading">
+                    <h2>Quick access</h2>
+                    <span><a href="#">Hide</a></span>
+                </div>
+
+                <div class="cards">
+                    <div class="card">
+                        <span class="material-icons-round">folder_shared</span>
+                        <div class="stacked">
+                            <span class="material-icons-round profile">account_circle</span>
+                            <span class="material-icons-round profile">account_circle</span>
+                            <span class="material-icons-round profile">account_circle</span>
+                        </div>
+                        <div class="info">
+                            <p>Design systems</p>
+                            <p><span class="material-icons-round">schedule</span>Updated today at 12:01 am</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <span class="material-icons-round">folder_shared</span>
+                        <div class="stacked">
+                            <span class="material-icons-round profile">account_circle</span>
+                        </div>
+                        <div class="info">
+                            <p>Personal</p>
+                            <p><span class="material-icons-round">schedule</span>Updated today at 16:20 pm</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <span class="material-icons-round">folder_shared</span>
+                        <div class="stacked">
+                            <span class="material-icons-round profile">account_circle</span>
+                            <span class="material-icons-round profile">account_circle</span>
+                        </div>
+                        <div class="info">
+                            <p>Design Documents</p>
+                            <p><span class="material-icons-round">schedule</span>Updated yesterday at 15:13 pm</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="recent-files">
+                <div class="recent-files heading">
+                    <h2>Recent files</h2>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+                <div class="list">
+                    <ul class="item">
+                        <li>Name<span class="material-icons-round">arrow_drop_down</span></li>
+                        <li></li>
+                        <li>Last edit<span class="material-icons-round">arrow_drop_down</span></li>
+                        <li>Size<span class="material-icons-round">arrow_drop_down</span></li>
+                        <li>Shared<span class="material-icons-round">arrow_drop_down</span></li>
+                        <li></li>
+                    </ul>
+
+                    <ul class="item">
+                        <li><span class="material-icons-round">picture_as_pdf</span></li>
+                        <li>Dashboard_app.pdf</li>
+                        <li>Today · 13:01 pm</li>
+                        <li>1.2 Mb</li>
+                        <li class="stacked">
+                            <span class="material-icons-round profile">account_circle</span>
+                            <span class="material-icons-round profile">account_circle</span>
+                            <span class="material-icons-round profile">account_circle</span>
+                            <span class="material-icons-round profile">account_circle</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">more_vert</span>
+                        </li>
+                    </ul>
+
+                    <ul class="item">
+                        <li><span class="material-icons-round">image</span></li>
+                        <li>Background.jpg</li>
+                        <li>Yesterday · 10:23 am</li>
+                        <li>2.4 Mb</li>
+                        <li class="stacked">
+                            <span class="material-icons-round profile">account_circle</span>
+                            <span class="material-icons-round profile">account_circle</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">more_vert</span>
+                        </li>
+                    </ul>
+
+                    <ul class="item">
+                        <li><span class="material-icons-round">audio_file</span></li>
+                        <li>We_Will_Rock_You.mp3</li>
+                        <li>23/09/2022 · 13:25 pm</li>
+                        <li>6.8 Mb</li>
+                        <li class="stacked">
+                            <span class="material-icons-round profile">account_circle</span>
+                            <span class="material-icons-round profile">account_circle</span>
+                            <span class="material-icons-round profile">account_circle</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">more_vert</span>
+                        </li>
+                    </ul>
+
+                    <ul class="item">
+                        <li><span class="material-icons-round">video_file</span></li>
+                        <li>Animation.mp4</li>
+                        <li>14/07/2022 · 23:49 pm </li>
+                        <li>1.6 Gb</li>
+                        <li class="stacked">
+                            <span class="material-icons-round profile">account_circle</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">more_vert</span>
+                        </li>
+                    </ul>
+
+                    <ul class="item">
+                        <li><span class="material-icons-round">image</span></li>
+                        <li>Selfie.png</li>
+                        <li>22/06/2022 · 15:01 pm</li>
+                        <li>3.2 Mb</li>
+                        <li class="stacked">
+                            <!-- <span class="material-icons-round profile">account_circle</span> -->
+                        </li>
+                        <li>
+                            <span class="material-icons-round">more_vert</span>
+                        </li>
+                    </ul>
+
+                    <ul class="item">
+                        <li><span class="material-icons-round">picture_as_pdf</span></li>
+                        <li>Resume.pdf</li>
+                        <li>01/01/2022 · 08:01 am</li>
+                        <li>1.4 Mb</li>
+                        <li class="stacked">
+                            <!-- <span class="material-icons-round profile">account_circle</span> -->
+                        </li>
+                        <li>
+                            <span class="material-icons-round">more_vert</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            <aside class="more-info">
+                <section class="side-card">
+                    <div class="large-icon">
+                        <span class="material-icons-round">folder_shared</span>
+                    </div>
+                    <div class="info">
+                        <p>Design systems</p>
+                        <p><span class="material-icons-round">schedule</span>Updated today · 12:01 am</p>
+                    </div>
+                    <ul class="files">
+                        <li>
+                            <span class="material-icons-round color-1">description</span>
+                            <label for="file">Files</label>
+                            <span>4.2 Gb</span>
+                            <progress id="file" value="0.7"></progress>
+                        </li>
+                        <li>
+                            <span class="material-icons-round color-2">image</span>
+                            <label for="image">Images</label>
+                            <span>1.2 Gb</span>
+                            <progress id="image" value="0.4"></progress>
+                        </li>
+                        <li>
+                            <span class="material-icons-round color-3">audio_file</span>
+                            <label for="audio">Audio</label>
+                            <span>56 Mb</span>
+                            <progress id="audio" value="0.1"></progress>
+                        </li>
+                        <li>
+                            <span class="material-icons-round color-5">description</span>
+                            <label for="unknown-file">Unknown</label>
+                            <span>420 Mb</span>
+                            <progress id="unknown-file" value="0.5"></progress>
+                        </li>
+                    </ul>
+
+                    <div class="stacked">
+                        <span class="material-icons-round profile">account_circle</span>
+                        <span class="material-icons-round profile">account_circle</span>
+                        <span class="material-icons-round profile">account_circle</span>
+                    </div>
+                    <button class="button"><span>Invite</span></button>
+                </section>
+                <div>
+                    <button class="button-2">
+                        <span class="material-icons-round">cloud_upload</span> Upload files
+                    </button>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+</body>
+
+</html>
